@@ -1,0 +1,79 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  position: relative;
+  }
+body:before {
+   content: " ";
+   background-image: url(../img/group.png);
+   position: absolute;
+   top: 24px;
+   bottom: -29px;
+   display: block;
+   width: 320px;
+   height: 753px;
+  }
+body:after {
+   content: " ";
+   background-image: url(../img/groupright.png);
+   position: absolute;
+   top: -40px;
+   bottom: -110px;
+   display: block;
+   width: 792px;
+   height: 910px;
+   left: 971px;
+   }
+.nav__link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 20px;
+    color: #504A62;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    width: 780px;
+    margin: auto;
+    margin-bottom: 85px;
+  }
+  .header__logo {
+    width: 142px;
+    height: 45px;
+  }
+  .section__title {
+    width: 720px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    margin: auto;
+    text-align: center;
+    color: #504A62;
+    margin-bottom: 40px;
+  }
+  .app-links {
+    width: 268px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  .app-link {
+    margin-right: 20px;
+  }
+  .app-link__img {
+    width: 134px;
+  }
+  .section__iphone {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    width: 333px;
+  }
