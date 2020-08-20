@@ -1,0 +1,83 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  position: relative;
+  }
+body:before {
+   content: " ";
+   background-image: url(../img/group.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   position: absolute;
+   top: 2px;
+   display: block;
+   width: 507px;
+   height: 843px;
+  }
+body:after {
+   content: " ";
+   background-image: url(../img/groupright.png);
+   position: absolute;
+   bottom: 0px;
+   display: block;
+   width: 538px;
+   height: 870px;
+   right: 0px;
+   background-position: right;
+   }
+.nav__link {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 24px;
+    color: #504A62;
+}
+.nav__link:last-child {
+    margin-right: 0px;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    width: 1529px;
+    margin: auto;
+    margin-bottom: 109px;
+  }
+  .header__logo {
+    width: 127px;
+    height: 29px;
+  }
+  .section__title {
+    width: 868px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    margin: auto;
+    text-align: center;
+    color: #504A62;
+    margin-bottom: 56px;
+  }
+  .app-links {
+    width: 425px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 121px;
+  }
+  .app-link:last-child {
+    margin-right: 0px;
+  }
+  .app-link__img {
+    width: 195px;
+  }
+  .section__iphone {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    width: 425px;
+  }
