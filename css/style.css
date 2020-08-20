@@ -21,7 +21,7 @@ body:after {
    content: " ";
    background-image: url(../img/groupright.png);
    position: absolute;
-   top: -76px;
+   bottom: 0px;
    display: block;
    width: 538px;
    height: 870px;
