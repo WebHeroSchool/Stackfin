@@ -2,26 +2,6 @@ body {
   font-family: 'PT Sans Caption', sans-serif;
   font-style: normal;
 }
-@media (min-width: 310px) {
-  .body {
-  font-size: 24px
-  }
-}
-@media (min-width: 800px) {
-  .body {
-  font-size: 32px
-  }
-}
-@media (min-width: 1000px) {
-  .body {
-  font-size: 32px
-  }
-}
-@media (min-width: 1600px) {
-  .body {
-  font-size: 40px
-  }
-}
 body {
   margin: 0;
   position: relative;
@@ -99,5 +79,334 @@ body:after {
     display:flex;
     align-items: center;
     margin: auto;
-    width: 425px;
+    width: 333px;
   }
+  @media (min-width: 310px) {
+    .body {
+    font-size: 24px
+    }
+    body {
+      margin: 0;
+      position: relative;
+      }
+    .nav__link {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        margin-right: 24px;
+        color: #504A62;
+    }
+    .nav__link:last-child {
+        margin-right: 0px;
+    }
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 113px;
+        width: 148px;
+        margin: auto;
+        margin-bottom: 24px;
+      }
+      .header__logo {
+        width: 148px;
+        height: 33px;
+      }
+      .section__title {
+        width: 274px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        margin: auto;
+        text-align: center;
+        color: #504A62;
+        margin-bottom: 66px;
+      }
+      .app-links {
+        width: 225px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 26px;
+      }
+      .app-link:last-child {
+        margin-right: 0px;
+      }
+      .app-link__img {
+        width: 108px;
+      }
+      body:before {
+         content: " ";
+         background-image: url(../img/group.png);
+         background-repeat: no-repeat;
+         background-position: left;
+         position: absolute;
+         top: 26px;
+         display: block;
+         width: 507px;
+         height: 852px;
+        }
+      body:after {
+         content: " ";
+         background-image: url(../img/groupright.png);
+         position: absolute;
+         top: 66px;
+         display: block;
+         width: 363px;
+         height: 961px;
+         right: 0px;
+         background-position: right;
+         }
+         .section__iphone {
+           display:flex;
+           align-items: center;
+           margin: auto;
+           width: 275px;
+         }
+  }
+  @media (min-width: 1300px) {
+    .body {
+    font-size: 32px
+    }
+    body {
+      margin: 0;
+      position: relative;
+      }
+    .nav__link {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        margin-right: 20px;
+        color: #504A62;
+    }
+    .nav__link:last-child {
+        margin-right: 0px;
+    }
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 43px;
+        width: 925px;
+        margin: auto;
+        margin-bottom: 90px;
+      }
+      .header__logo {
+        width: 98px;
+        height: 22px;
+      }
+      .section__title {
+        width: 720px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 41px;
+        margin: auto;
+        text-align: center;
+        color: #504A62;
+        margin-bottom: 40px;
+      }
+      .app-links {
+        width: 292px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 80px;
+      }
+      .app-link:last-child {
+        margin-right: 0px;
+      }
+      .app-link__img {
+        width: 134px;
+      }
+      body:before {
+         content: " ";
+         background-image: url(../img/group.png);
+         background-repeat: no-repeat;
+         background-position: left;
+         position: absolute;
+         top: 24px;
+         display: block;
+         width: 315px;
+         height: 760px;
+        }
+      body:after {
+         content: " ";
+         background-image: url(../img/groupright.png);
+         position: absolute;
+         top: 40px;
+         display: block;
+         width: 389px;
+         height: 910px;
+         right: 0px;
+         background-position: right;
+         }
+         .section__iphone {
+           display:flex;
+           align-items: center;
+           margin: auto;
+           width: 333px;
+         }
+  }
+   @media (min-width: 1000px) {
+    .body {
+    font-size: 32px
+    }
+    body {
+      margin: 0;
+      position: relative;
+      }
+    .nav__link {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        margin-right: 24px;
+        color: #504A62;
+    }
+    .nav__link:last-child {
+        margin-right: 0px;
+    }
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 36px;
+        width: 925px;
+        margin: auto;
+        margin-bottom: 109px;
+      }
+      .header__logo {
+        width: 127px;
+        height: 29px;
+      }
+      .section__title {
+        width: 720px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 41px;
+        margin: auto;
+        text-align: center;
+        color: #504A62;
+        margin-bottom: 56px;
+      }
+      .app-links {
+        width: 292px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 121px;
+      }
+      .app-link:last-child {
+        margin-right: 0px;
+      }
+      .app-link__img {
+        width: 134px;
+      }
+      body:before {
+         content: " ";
+         background-image: url(../img/group.png);
+         background-repeat: no-repeat;
+         background-position: left;
+         position: absolute;
+         top: 23px;
+         display: block;
+         width: 309px;
+         height: 852px;
+        }
+      body:after {
+         content: " ";
+         background-image: url(../img/groupright.png);
+         position: absolute;
+         top: 66px;
+         display: block;
+         width: 363px;
+         height: 961px;
+         right: 0px;
+         background-position: right;
+         }
+  }
+  @media (min-width: 1800px) {
+    .body {
+    font-size: 40px
+    }
+    body {
+      margin: 0;
+      position: relative;
+      }
+    body:before {
+       content: " ";
+       background-image: url(../img/group.png);
+       background-repeat: no-repeat;
+       background-position: left;
+       position: absolute;
+       top: 2px;
+       display: block;
+       width: 507px;
+       height: 843px;
+      }
+    body:after {
+       content: " ";
+       background-image: url(../img/groupright.png);
+       position: absolute;
+       bottom: 0px;
+       display: block;
+       width: 538px;
+       height: 870px;
+       right: 0px;
+       background-position: right;
+       }
+    .nav__link {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        margin-right: 24px;
+        color: #504A62;
+    }
+    .nav__link:last-child {
+        margin-right: 0px;
+    }
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 36px;
+        width: 1529px;
+        margin: auto;
+        margin-bottom: 109px;
+      }
+      .header__logo {
+        width: 127px;
+        height: 29px;
+      }
+      .section__title {
+        width: 868px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 41px;
+        margin: auto;
+        text-align: center;
+        color: #504A62;
+        margin-bottom: 56px;
+      }
+      .app-links {
+        width: 425px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 121px;
+      }
+      .app-link:last-child {
+        margin-right: 0px;
+      }
+      .app-link__img {
+        width: 195px;
+      }
+      .section__iphone {
+        display:flex;
+        align-items: center;
+        margin: auto;
+        width: 333px;
+      }
