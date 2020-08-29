@@ -8,9 +8,9 @@
   <link ref="stylesheet" href="css/fonts.css">
 </head>
 <body>
+  <div class="menu-mobile">
   <div class="menu-mobile visible">
-      <img class="krestik" src="img/krestik.svg">
-    <div class="menu-mobile__container">
+      <div class="menu-mobile__container">
       <div class="menu-mobile__closer">
               </div>
       <a href="/" class="menu-mobile__item">
@@ -30,8 +30,10 @@
   <header class="header">
     <img class="burger" src="img/burger.png"
     <img class="header__logo" src="img/logo.svg">
-    <img class="logo_mobile" src="img/rectmobile.svg">
-    <img class="logo_mobile" src="img/stackmobile.svg">
+    <div class="logo-mobile">
+      <img class="logo-mobile__rect" src="img/rectmobile.svg">
+      <img class="logo-mobile__stack" src="img/stackmobile.svg">
+    </div>
     <nav class="nav">
       <a class="nav__link">Features</a>
       <a class="nav__link">Pricing</a>
