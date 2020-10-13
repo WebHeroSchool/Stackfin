@@ -491,15 +491,17 @@ font-weight: bold;
   content: ' ';
   height: 33px;
   width: 2px;
-  background-color: #333;
+  background-color: #FF9100;
 }
 
 .menu-mobile__item {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #00000;
+  color: #000000;
   margin-bottom: 24px;
+  text-decoration: none;
+  width: 120px;
 }
 .menu-mobile__item:last-child {
   margin-bottom: 0px;
@@ -580,15 +582,17 @@ font-weight: bold;
   content: ' ';
   height: 33px;
   width: 2px;
-  background-color: #333;
+  background-color: #FF9100;
 }
 
 .menu-mobile__item {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #00000;
+  color: #000000;
   margin-bottom: 24px;
+  text-decoration: none;
+  width: 120px;
 }
 .menu-mobile__item:last-child {
   margin-bottom: 0px;
@@ -742,15 +746,17 @@ font-weight: bold;
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #333;
+    background-color: #FF9100;
 }
 
   .menu-mobile__item {
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #00000;
+    color: #000000;
+    text-decoration: none;
     margin-bottom: 24px;
+    width: 120px;
 }
   .menu-mobile__item:last-child {
     margin-bottom: 0px;
