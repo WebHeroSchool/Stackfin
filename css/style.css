@@ -166,6 +166,16 @@ font-weight: bold;
   color: #504A62;
 }
 
+@media (max-width: 1610px) {
+  .header {
+    max-width: 1350px;
+}
+
+@media (max-width: 1460px) {
+  .header {
+    max-width: 1200px;
+}
+
 @media (max-width: 1400px) {
   body {
     font-size: 32px;
@@ -200,7 +210,7 @@ font-weight: bold;
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-    margin-right: -3px;
+    margin-right: 0px;
     color: #504A62;
 }
 
@@ -212,8 +222,8 @@ font-weight: bold;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 36px;
-    max- width: 1060px;
+    padding-top: 34px;
+    max- width: 1069px;
     width: initial;
     margin: auto;
     margin-bottom: 109px;
@@ -225,8 +235,9 @@ font-weight: bold;
 }
 
   .logo_mobile {
-    margin-left: 66px;
+    margin-left: 70px;
     max-width: 110px;
+    width: initial;
 }
 
   .section__title {
@@ -279,7 +290,7 @@ font-weight: bold;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    margin-right: 14px;
+    margin-right: 17px;
     color: #504A62;
 }
 
@@ -291,7 +302,7 @@ font-weight: bold;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 39px;
+    padding-top: 29px;
     max- width: 1055px;
     width: initial;
     margin: auto;
@@ -390,10 +401,11 @@ font-weight: bold;
     display:flex;
     justify-content:space-around ;
     align-items: center;
-    padding-top: 54px;
+    padding-top: 120px;
     width: 100%;
     margin: auto;
     margin-bottom: 109px;
+    margin-left: 180px;
 }
   .header__logo {
     width: 127px;
@@ -537,8 +549,6 @@ font-weight: bold;
     padding-top: 112px;
     margin-bottom: 40px;
     max-width: 250px;
-    width: initial;
-    margin-left: initial;
 }
 
   .section__title {
@@ -554,6 +564,7 @@ font-weight: bold;
     justify-content: center;
     padding-left: 50px;
 }
+
 .menu-mobile {
   background-color: #fff;
   position: fixed;
@@ -616,7 +627,7 @@ font-weight: bold;
 
 }
 
-@media (max-width: 310px) {
+@media (max-width: 375px) {
   body {
     font-size: 24px
 }
@@ -626,12 +637,12 @@ font-weight: bold;
     height: 100%;
 }
   .burger {
-  top: 54px;
-  right: 38px;
-  width: 25px;
-  height: 17px;
-  position: absolute;
-  display:block;
+    top: 54px;
+    right: 38px;
+    width: 25px;
+    height: 17px;
+    position: absolute;
+    display:block;
 }
   .nav__link {
     font-weight: bold;
@@ -649,11 +660,11 @@ font-weight: bold;
 
   .header {
     display:flex;
-    padding-top: 118px;
-    width: 210px;
+    padding-top: 110px;
+    max-width: 250px;
     margin: auto;
     margin-bottom: 24px;
-    margin-left: 0;
+    margin-left: 0px;
 }
 
   .header__logo {
@@ -663,9 +674,11 @@ font-weight: bold;
 }
 
   .logo-mobile {
-    display: block;
     align-items: center;
     margin-bottom: 24px;
+    max-width: 800px;
+    width: initial;
+    margin-left: 50px;
 }
 
   .logo-mobile__rect {
@@ -673,11 +686,13 @@ font-weight: bold;
     width: 33px;
     height: 33px;
     margin-right: 12px;
+    display: block;
 }
 
   .logo-mobile__stack {
     width: 103px;
     height: 33px;
+    display: block;
 }
 
   .section__title {
