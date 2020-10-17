@@ -303,7 +303,7 @@ font-weight: bold;
     justify-content: space-between;
     align-items: center;
     padding-top: 29px;
-    max- width: 1055px;
+    max-width: 1055px;
     width: initial;
     margin: auto;
     margin-bottom: 90px;
@@ -316,8 +316,9 @@ font-weight: bold;
 }
 
   .logo_mobile {
-    max-width: 110px;
-    margin-left: 65px;
+    max-width: 100px;
+    margin-left: 75px;
+    padding-top: 15px;
 }
 
   .section__title {
@@ -378,6 +379,12 @@ font-weight: bold;
     margin: auto;
     width: 333px;
 }
+}
+
+@media (max-width: 1070px) {
+  .header {
+    max-width: 900px;
+  }
 }
 
 @media (max-width: 950px) {
