@@ -118,7 +118,8 @@ body:after {
 }
 
 .logo_mobile {
-    display: none;
+
+
 }
 
 .burger {
@@ -165,10 +166,22 @@ body:after {
 }
 
 @media (max-width: 1366px) {
-  .header__logo {
-      width: 127px;
-      height: 29px;
+  .logo-mobile {
+      width: 165px;
+      height: 33px;
     }
+  .header {
+    max-width: 978px;
+  }
+  .nav__link {
+    max-width: 300px;
+    font-size: 14px;
+  }
+  .nav {
+    margin-right: 5px;
+    max-width: 1150px;
+    width: initial;
+  }
 }
 
 
