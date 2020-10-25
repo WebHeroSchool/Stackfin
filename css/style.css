@@ -169,19 +169,20 @@ body:after {
   .logo-mobile {
       width: 165px;
       height: 33px;
+      margin-left: 10px;
     }
   .header {
-    max-width: 978px;
+    width: 100%;
+    justify-content: space-around;
   }
   .nav__link {
-    max-width: 300px;
+    max-width: 100%;
     font-size: 14px;
   }
   .nav {
-    margin-right: 5px;
-    max-width: 1150px;
-    width: initial;
-  }
+    max-width: 100%;
+    padding-right: 0px;
+
 }
 
 
